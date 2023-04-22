@@ -1,0 +1,22 @@
+body{
+    height: 95vh;
+    width: 95;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: rgb(2, 85, 2);
+}
+
+.botao{
+    border-radius: 12%;
+    background-color: rgb(2, 85, 2);
+    color: white;
+    padding: 6px;
+    margin-bottom: 10px;
+}
+
+#snake{
+    border-radius: 10px;
+    border: solid;
+}
