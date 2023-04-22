@@ -8,12 +8,17 @@
     <link rel="stylesheet" href="style.css">
     <title>Snake Game</title>
 </head>
-<body>
+
+<header> 
     <h1>JOGO DA COBRINHA</h1>
+</header>
+
+<body>
     <div>
-        <button type= "button" class="botao"
-        >Iniciar jogo</button>
+        <canvas id="snake" width="512" height="512"></canvas>
     </div>
-    <canvas id="snake" width="512" height="512"></canvas>
+    <div>
+        <button type= "button" class="botao" onclick="novoJogo()">Iniciar jogo</button>
+    </div>
 </body>
 </html>
